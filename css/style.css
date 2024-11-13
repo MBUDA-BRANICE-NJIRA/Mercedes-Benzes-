@@ -1,9 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .navbar{
     height: 90px;
+    display: flex;
+    padding: 20px;
+    color: white;
 }
 
 .nav-link{
     font-weight: bold;
+    color: white;
 
 }
 
@@ -23,3 +32,20 @@
 .nav-link:hover{
     color: rgb(193, 193, 193);
 }
+.background-image {
+    background-image: url('/img/background image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.text-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Optional: darkens the background for better text visibility */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+   
