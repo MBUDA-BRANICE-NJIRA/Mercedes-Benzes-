@@ -1,0 +1,25 @@
+.navbar{
+    height: 90px;
+}
+
+.nav-link{
+    font-weight: bold;
+
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav{
+    margin-left: 60%;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(193, 193, 193);
+}
