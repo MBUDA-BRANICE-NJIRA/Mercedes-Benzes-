@@ -1,5 +1,6 @@
 .navbar{
     height: 90px;
+    z-index: 10;
 }
 
 .nav-link{
@@ -36,7 +37,7 @@ body{
     object-fit: cover;
 }
 
-.container{
+.carousel{
     height: 700px;
 }
 .carousel-img{
@@ -65,3 +66,4 @@ body{
 hr{
     color: rgb(18, 164, 213);
 }
+
