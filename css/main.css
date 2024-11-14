@@ -1,0 +1,67 @@
+.navbar{
+    height: 90px;
+}
+
+.nav-link{
+    font-weight: bolder;
+
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+    font-family: Unity Sans TT;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: Unity Sans TT;
+}
+
+.navbar-nav{
+    margin-left: 62%;
+}
+
+.nav-link, h3{
+    color: white;
+    font-family: Unity Sans TT;
+}
+
+.nav-link:hover{
+    color: rgb(193, 193, 193);
+}
+
+.logo{
+    object-fit: cover;
+}
+
+.container{
+    height: 700px;
+}
+.carousel-img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-img-top{
+    height: 300px;
+    width: inherit;
+    object-fit: cover;
+}
+
+.card{
+    width: 400px;
+    padding: 0;
+    border: 1px solid rgb(18, 164, 213);
+
+}
+
+.card-text{
+    text-align: justify;
+}
+
+hr{
+    color: rgb(18, 164, 213);
+}
